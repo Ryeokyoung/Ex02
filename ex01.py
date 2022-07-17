@@ -52,7 +52,7 @@ print("")
 print("========== dList ==========")
 dList = [1, 12, 123, 1234]
 print(dList)
-dList[1:2] = []
+dList[1:2] = [] #2번째 비우기 
 print(dList)
 
 dList[0:] = []                             # 전체 비우기
