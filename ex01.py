@@ -52,7 +52,7 @@ print("")
 print("========== dList ==========")
 dList = [1, 12, 123, 1234]
 print(dList)
-dList[1:2] = [] #2번째 비우기 
+dList[1:2] = [] #2번째 비우기
 print(dList)
 
 dList[0:] = []                             # 전체 비우기
@@ -83,6 +83,6 @@ a.append(5)
 print(a)
 
 #배열 원하는 위치에 값 추가
-a.insert(3, 1000)
+a.insert(3, 1000) #3번째 자리 1000 추가 
 print(a)
 
